@@ -1,0 +1,8 @@
+export class CreatePopupBannerDto {
+  fileType: string;
+  image: string;
+  showOnMobile: boolean;
+  showOnWeb: boolean;
+  isDeleted: boolean;
+  isActive: boolean;
+}
